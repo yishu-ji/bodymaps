@@ -1,3 +1,35 @@
+This is a **naive demo for dimensionality reduction based on mapping pixels to body parts**. It mainly uses rectangular segmentation and clustering of pixels in an image.
+
+The main files include:
+
+1. **mask_coordinate.py**
+2. **coordinate_transform.py**
+3. **dim_reduction.py**
+4. **in_mask.csv** (source: generated from MATLAB code provided by the TA)
+5. **Emotion.csv** (source: the original downloaded dataset; here, *Anger.csv* is used as an example)
+6. **Example segmentation method.jpg**
+
+The main steps are as follows:
+
+1. Run **mask_coordinate.py**.
+
+   * Hover the mouse over any point in the image to display its *x* and *y* coordinates.
+   * Click on a point to print its *x–y coordinates*, *mask_index* (from 1 to 522×171), and *data_index* (from 1 to 50,364) in the terminal.
+2. Run **coordinate_transform.py**.
+
+   * Remember to replace the initial **Emotion** with the **corresponding emotion word**.
+   * This step classifies pixels based on their coordinates (refer to *Example segmentation method.jpg*).
+   * You may *adjust the classification criteria based on your understanding and the coordinate information obtained in Step 1*.
+   * After completion, a new file **modified_in_mask.csv** will be generated, which stores the label (e.g., arms, legs, etc.) corresponding to each pixel.
+3. Run **dim_reduction.py**.
+
+   * Based on the labels from Step 2, this script finds the corresponding pixels in the original data file (**Emotion.csv**) and computes their arithmetic mean.
+   * After completion, a new file **Emotion_reduced.csv** will be created. Each row corresponds to one participant (ordered from top to bottom as Subject 1, 2, 3, ...).
+   * The first column is the emotion, and the following columns are the averaged values for each body part label.
+   * The resulting file format can be directly opened and analyzed in SPSS.
+   * This step may take some time—please be patient.
+
+
 这是一个naive的*根据像素对应的身体部位进行数据降维*的代码demo，主要是用矩形在图片上进行像素的分割和聚类
 
 主要包括文件：
