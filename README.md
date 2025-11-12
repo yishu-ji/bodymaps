@@ -30,6 +30,7 @@ The main steps are as follows:
    * This step may take some time—please be patient.
 
 
+
 这是一个naive的*根据像素对应的身体部位进行数据降维*的代码demo，主要是用矩形在图片上进行像素的分割和聚类
 
 主要包括文件：
