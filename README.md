@@ -1,3 +1,5 @@
+# Advanced Psychological Statistics (Tsinghua University, 23 Fall)
+
 This is a **naive demo for dimensionality reduction based on mapping pixels to body parts**. It mainly uses rectangular segmentation and clustering of pixels in an image.
 
 The main files include:
