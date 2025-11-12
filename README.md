@@ -1,7 +1,9 @@
 # Emotion and Body
 ## Advanced Psychological Statistics (Tsinghua University, 23 Fall)
 
-This is a **naive demo for a course project to perform dimensionality reduction based on mapping pixels to body parts**. It mainly uses rectangular segmentation and clustering of pixels in an image.
+This is a **naive demo** of a course project for **Advanced Psychological Statistics**. This source code is provided as a reference for my peer classmates who have little experience in Python to preprocess the large-scale datasets. Should you have any questions, please feel free to contact me.
+
+This demo perform **dimensionality reduction based on mapping pixels to body parts**. It mainly uses rectangular segmentation and clustering of pixels in an image.
 
 The main files include:
 
