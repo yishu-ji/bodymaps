@@ -1,7 +1,7 @@
 # Emotion and Body
 ## Advanced Psychological Statistics (Tsinghua University, 23 Fall)
 
-This is a **naive demo** of a course project for **Advanced Psychological Statistics**. This source code is provided as a reference for my peer classmates who have little experience in Python to preprocess the large-scale datasets. Should you have any questions, please feel free to contact me. My email could be found in my profile.
+This is a **naive demo** of a course project for **Advanced Psychological Statistics**. This source code is provided as a reference for my peer classmates who have little experience in Python to preprocess the large-scale datasets. Should you have any questions, please feel free to contact me. My email in use could be found in my profile.
 
 This demo perform **dimensionality reduction based on mapping pixels to body parts**. It mainly uses rectangular segmentation and clustering of pixels in an image.
 
@@ -35,8 +35,8 @@ The main steps are as follows:
    * This step may take some time—please be patient.
 
 
-
-这是一个naive的*根据像素对应的身体部位进行数据降维*的代码demo，主要是用矩形在图片上进行像素的分割和聚类
+这是一个为**清华大学“高级心理统计”课程**专题大作业搭建的**数据处理管道**。我将这份源代码开源分享，旨在帮助对 Python 经验较少的同学进行大规模数据集的预处理。如果您有任何问题，欢迎随时联系我。我的常用邮箱可以在个人主页中找到
+本管道*根据像素对应的身体部位进行数据降维*，主要是用矩形在图片上进行像素的分割和聚类
 
 主要包括文件：
     1. mask_coordinate.py
